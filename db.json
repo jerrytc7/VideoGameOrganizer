@@ -2,8 +2,15 @@
   "posts": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "username": "json-server",
+      "caption": "typicode",
+      "image": "https://freepngimg.com/thumb/mario/20723-2-mario-image.png"
+    },
+    {
+      "image": "https://i.stack.imgur.com/ILTQq.png",
+      "caption": "penguin",
+      "username": "jerrytc",
+      "id": 2
     }
   ],
   "comments": [

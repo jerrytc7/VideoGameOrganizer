@@ -26,13 +26,13 @@ class Navbar extends React.Component {
           }}
         >Home</NavLink>
         <NavLink
-          to="/about"
+          to="/upload"
           exact
           style={link}
           activeStyle={{
             background: 'darkblue'
           }}
-        >About</NavLink>
+        >Upload</NavLink>
         <NavLink
           to="/login"
           exact

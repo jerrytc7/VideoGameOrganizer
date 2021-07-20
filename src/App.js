@@ -1,21 +1,24 @@
 import './App.css';
 import Home from "./components/Home"
-import About from "./components/About"
+import Upload from "./components/Upload"
 import Login from "./components/Login"
 import Navbar from "./components/Navbar"
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
 function App() {
-  return (
+  return (   
     <div className="App">
         <Router>
+         <Navbar/>
             <Switch>
-              <Route exact path= "/home" component={Home}/>
-              <Route exact path= "/about" component={About}/>
+              <Route exact path= "/" component={Home}/>
+              <Route exact path= "/upload" component={Upload}/>
               <Route exact path= "/login" component={Login}/>
-              <Route exact path= "/" component={Navbar}/>
             </Switch>
-        </Router>      
+        </Router>    
+
+
+
     </div>
   );
 }
