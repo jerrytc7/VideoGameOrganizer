@@ -4,7 +4,6 @@ function Upload() {
   const [formData, setFormData] = useState({
     image: "",
     caption: "",
-    username: "",
   });
 
   const updateForm = (e) => {
@@ -15,9 +14,16 @@ function Upload() {
   }
   const uploadPost = (e) => {
     e.preventDefault()
+    if(!localStorage.getItem("username")){
+      alert("Hey, you forgot to login!")
+      return
+    }
     fetch("/posts",{
       method: "POST",
-      body: JSON.stringify(formData),
+      body: JSON.stringify({
+        ...formData,
+        username: localStorage.getItem("username")
+      }),
       headers: {
         'Content-Type': 'application/json'
       },
@@ -38,10 +44,6 @@ function Upload() {
         <div>
           <label htmlFor="caption">Caption:</label>
           <input value={formData.caption} onChange={updateForm} id="caption" />
-        </div>
-        <div>
-          <label htmlFor="username">Username:</label>
-          <input value={formData.username} onChange={updateForm} id="username" />
         </div>
         <button>Upload</button>
       </form>

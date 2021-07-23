@@ -11,6 +11,24 @@
       "caption": "penguin",
       "username": "jerrytc",
       "id": 2
+    },
+    {
+      "image": "https://i0.wp.com/memesrush.com/wp-content/uploads/2019/02/funny-meme-picture-1549355360.jpg?fit=662%2C857&ssl=1",
+      "caption": "ohno",
+      "username": "ohno123",
+      "id": 3
+    },
+    {
+      "image": "https://www.rd.com/wp-content/uploads/2019/09/GettyImages-621924830-scaled.jpg",
+      "caption": "beachbody",
+      "username": "listeryeay",
+      "id": 4
+    },
+    {
+      "image": "https://i.stack.imgur.com/ILTQq.png",
+      "caption": "penguin test",
+      "username": "jerrytc",
+      "id": 5
     }
   ],
   "comments": [
@@ -20,7 +38,18 @@
       "postId": 1
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "profile": [
+    {
+      "username": "typicode",
+      "password": "password123"
+    },
+    {
+      "username": "jerrytc",
+      "password": "password123"
+    },
+    {
+      "username": "testing",
+      "password": "password123"
+    }
+  ]
 }
