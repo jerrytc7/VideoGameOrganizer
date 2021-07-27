@@ -17,7 +17,7 @@ function App() {
         <Navbar username={username} />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/upload" component={Upload} />
+          <Route  exact path="/upload" component={Upload} />
           <Route exact path="/login">
             <Login setUsername={setUsername}/>
             </Route>

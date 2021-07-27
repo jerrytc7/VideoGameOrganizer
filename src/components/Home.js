@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Post from "./Post.js"
+import Test from "./Test";
 
 function Home() {
   const [posts, setPosts] = useState([]);
@@ -9,12 +10,15 @@ function Home() {
       .then((data) => setPosts(data));
   }, []);
 
+  
+
   return (
     <div>
       <h1> Home Sweet Home </h1>
-      {posts.map((post) => (
-          <Post post={post}/>
+      {posts.map((post, idx) => (
+          <Post key={idx} post={post} />
       ))}
+            <Test />
     </div>
   );
 }

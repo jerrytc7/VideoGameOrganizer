@@ -4,31 +4,50 @@
       "id": 1,
       "username": "json-server",
       "caption": "typicode",
-      "image": "https://freepngimg.com/thumb/mario/20723-2-mario-image.png"
+      "image": "https://freepngimg.com/thumb/mario/20723-2-mario-image.png",
+      "likes": 1
     },
     {
       "image": "https://i.stack.imgur.com/ILTQq.png",
       "caption": "penguin",
       "username": "jerrytc",
-      "id": 2
+      "id": 2,
+      "likes": 1
     },
     {
       "image": "https://i0.wp.com/memesrush.com/wp-content/uploads/2019/02/funny-meme-picture-1549355360.jpg?fit=662%2C857&ssl=1",
       "caption": "ohno",
       "username": "ohno123",
-      "id": 3
+      "id": 3,
+      "likes": 1
     },
     {
       "image": "https://www.rd.com/wp-content/uploads/2019/09/GettyImages-621924830-scaled.jpg",
       "caption": "beachbody",
       "username": "listeryeay",
-      "id": 4
+      "id": 4,
+      "likes": 1
     },
     {
       "image": "https://i.stack.imgur.com/ILTQq.png",
       "caption": "penguin test",
       "username": "jerrytc",
-      "id": 5
+      "id": 5,
+      "likes": 1
+    },
+    {
+      "image": "https://i.stack.imgur.com/ILTQq.png",
+      "caption": "test penguin",
+      "username": "jerrytc",
+      "id": 6,
+      "likes": 1
+    },
+    {
+      "image": "https://media.gettyimages.com/photos/funny-fish-picture-id92412692?s=612x612",
+      "caption": "malina :)",
+      "username": "jerrytc",
+      "id": 7,
+      "likes": 1
     }
   ],
   "comments": [
