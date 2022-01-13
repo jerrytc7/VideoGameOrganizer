@@ -7,7 +7,7 @@ function Login({ setUsername }) {
     password: "",
   });
   useEffect(() => {
-    fetch("http://localhost:3000/profile")
+    fetch("/profile")
       .then((res) => res.json())
       .then(setUsers);
   }, []);
